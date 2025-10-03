@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title> Tests</title>
+  <style>
+    body {
+      height: 3000px;
+      background-color: rgb(206, 157, 157);
+    }
+
+    .product {
+      color: black;
+      font-weight: Bold;
+      font-size: 50px;
+    }
+
+    .desc {
+      color: rgb(0, 118, 0);
+      font-size: 20px;
+      font-weight: bold;
+
+    }
+
+    .del {
+      font-size: 20px;
+    }
+
+    .cart {
+      font-size: 18px;
+      color: black;
+      border: none;
+      border-radius: 18px;
+      height: 39px;
+      width: 150px;
+      background-color: rgb(255, 216, 20);
+      cursor: pointer;
+
+    }
+
+    .cart:hover {
+      opacity: 0.7;
+    }
+
+    .cart:active {
+      opacity: 0.3;
+    }
+
+    .buy {
+      font-size: 18px;
+      color: black;
+      border: none;
+      border-radius: 18px;
+      height: 39px;
+      width: 150px;
+      background-color: rgb(255, 164, 28);
+      cursor: pointer;
+    }
+
+    .buy:hover {
+      opacity: 0.7;
+    }
+
+    .buy:active {
+      opacity: 0.3;
+    }
+
+    .link {
+      font-size: 20px;
+      transition: color 0.15s;
+    }
+
+    .link:hover {
+      color: orange;
+    }
+
+    .header-right {
+      position: fixed;
+      background-color: aqua;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 100px;
+    }
+
+    .overlay {
+      display: flex;
+      position: fixed;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(0, 0, 0, 0.8);
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+    }
+
+    .modal {
+      background-color: white;
+      padding-left: 10px;
+      padding-right: 80px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border-radius: 5px;
+    }
+
+    .modal-title {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      
+      font-size: 30px;
+      margin-bottom: 12px;
+    }
+
+    .modal-content {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin-bottom: 12px;
+      padding-left: 1px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <a href="https://www.amazon.com/" class="link">
+    Back to Amazon
+  </a>
+
+  <p class="product">
+    Nike Black Running Shoes
+  </p>
+
+  <p class="desc">
+    $39 - in Stock.
+  </p>
+
+  <p class="del">
+    Free delivery tommorow.
+  </p>
+
+  <button class="cart">
+    Add to Cart
+  </button>
+
+  <button class="buy">
+    Buy Now
+  </button>
+
+  <div class="header-right">
+    Header right
+  </div>
+
+  <div class="overlay">
+    <div class="modal">
+      <div class="modal-title">
+        Modal Title
+      </div>
+      <div class="modal-content">
+        Modal content
+      </div>
+      <button> Close </button>
+    </div>
+  </div>
+
+</body>
+
+</html>

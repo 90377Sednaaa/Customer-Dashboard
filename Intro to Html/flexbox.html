@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>FlexBox Practice</title>
+  <link rel="stylesheet" href="Styles/flexbox.css">
+</head>
+
+<body style="padding-bottom: 1000px;">
+
+  <div style="
+    display: flex;
+    flex-direction: row;
+    ">
+    <div style="background-color: lightblue;">
+      div 1
+    </div>
+    <div style="background-color: lightpink;">
+      div 2
+      <p>
+        text
+      </p>
+    </div>
+  </div>
+
+  <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    ">
+    <div style="background-color: lightblue; width: 100px;">
+      100px
+    </div>
+    <div style="background-color: lightpink; flex: 1">
+      Flex 1
+      <p>
+        text
+      </p>
+    </div>
+  </div>
+
+  <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    ">
+    <div style="background-color: lightblue; flex: 1">
+      Flex 1
+    </div>
+    <div style="background-color:  lightpink; width: 100px;">
+      100px
+    </div>
+    <div style="background-color: lightblue; flex: 2;">
+      Flex 2
+    </div>
+  </div>
+
+  <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    height: 70px;
+    border: solid;
+    border-width: 1px;
+    border-color: gray;
+    justify-content: center;
+    ">
+    <div style="background-color: lightblue;  width: 100px;">
+      100px
+    </div>
+    <div style="background-color:  lightpink; width: 100px;">
+      100px
+    </div>
+    <div style="background-color: lightblue;  width: 100px;">
+      100px
+    </div>
+  </div>
+
+  <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    height: 70px;
+    border: solid;
+    border-width: 1px;
+    border-color: gray;
+    justify-content: space-between;
+    ">
+    <div style="background-color: lightblue;  width: 100px;">
+      100px
+    </div>
+    <div style="background-color:  lightpink; width: 100px;">
+      100px
+    </div>
+    <div style="background-color: lightblue;  width: 100px;">
+      100px
+    </div>
+  </div>
+
+  <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    height: 70px;
+    border: solid;
+    border-width: 1px;
+    border-color: gray;
+    justify-content: space-between;
+    align-items: center;
+    ">
+    <div style="background-color: lightblue;  width: 100px;">
+      100px
+    </div>
+    <div style="background-color:  lightpink; width: 100px;">
+      100px
+    </div>
+    <div style="background-color: lightblue;  width: 100px;">
+      100px
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="flexbox">
+      <div>Home</div>
+      <div class="notifications">14</div>
+    </div>
+    <div class="flexbox">
+      <div>Messagest</div>
+      <div class="notifications">5</div>
+    </div>
+    <div class="flexbox">
+      <div>Music</div>
+      <div class="notifications">2</div>
+    </div>
+  </div>
+
+  <div class="container-follow">
+    <div class="row">
+      <img class="profile" src="images/dgtudkw-d99f50c3-3a64-4b19-adfd-c7e34fb9a32c.png">
+      <div class="info">
+        <p class="name">Sedna</p>
+        <p class="handle">Best Vtuber</p>
+        <p class="category">Popular</p>
+      </div>
+      <button class="button">Follow</button>
+    </div>
+
+    <div class="row">
+      <img class="profile" src="images/2.jpg">
+      <div class="info">
+        <p class="name">Nig</p>
+        <p class="handle">Best Human</p>
+        <p class="category">Unpopular</p>
+      </div>
+      <button class="button">Follow</button>
+    </div>
+
+    <div class="row">
+      <img class="profile" src="images/3.jpg">
+      <div class="info">
+        <p class="name">Giorno</p>
+        <p class="handle">Best Fighter</p>
+        <p class="category">Popular</p>
+      </div>
+      <button class="button">Follow</button>
+    </div>
+  </div>
+
+  <div class="header">
+    <div class="Home">
+      Home
+    </div>
+    <div class="center">
+      <input class="searchbar" type="text" placeholder="Search">
+    </div>
+    <div class="Download">
+      <button class="download-buttons">Download</button>
+    </div>
+  </div>
+
+  <div class="Container">
+    <div class="inbox-row">
+      ALL INBOXES
+    </div>
+    <div class="email">
+      <div class="profile-pic">
+        <img class="picture" src="images/dgtudkw-d99f50c3-3a64-4b19-adfd-c7e34fb9a32c.png">
+      </div>
+
+      <div class="email-content">
+        <div class="email-header">
+          <div class="sender-name">
+            Chewy Promotions
+          </div>
+          <div class="send-time">
+            4:58 PM
+          </div>
+        </div>
+        <div class="subject-row">
+          Biggest Sale of the year!
+        </div>
+        <div class="message-row">
+          Hey there! We're writing to tell you about our...
+        </div>
+      </div>
+    </div>
+
+    <div class="email">
+      <div class="profile-pic">
+        <img class="picture" src="images/3.jpg">
+      </div>
+
+      <div class="email-content">
+        <div class="email-header">
+          <div class="sender-name">
+            Random
+          </div>
+          <div class="send-time">
+            2:33 PM
+          </div>
+        </div>
+        <div class="subject-row">
+          You will Die!!!
+        </div>
+        <div class="message-row">
+          Come here at xxx-xxx-xxx and wait for ano...
+        </div>
+      </div>
+    </div>
+
+    <div class="email">
+      <div class="profile-pic">
+        <img class="picture" src="images/pic1.jpg">
+      </div>
+      <div class="email-content">
+        <div class="email-header">
+          <div class="sender-name">
+            Chewy Promotions
+          </div>
+          <div class="send-time">
+            4:58 PM
+          </div>
+        </div>
+        <div class="subject-row">
+          Biggest Sale of the year!
+        </div>
+        <div class="message-row">
+          Hey there! We're writing to tell you about our...
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

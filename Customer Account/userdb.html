@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/userAccount.css">
+    <title>Login & Security</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#"></a><img class="logo" src="images/Logo(1).png" alt="logo"></a>
+        <input class="search-bar" type="text" placeholder="Search ">
+        <div class="navigation">
+            <p class="cusname">Customer Name</p>
+            <a href="#"><img src="images/User.png" alt="Profile Picture"></a>
+            <a href="#"><img src="images/cart.png" alt="cart"></a>
+        </div>
+    </header>
+    <nav class="navbar">
+        <div class="navlinks-container">
+            <a href="#">BOOKS</a>
+            <a href="#">E-BOOKS</a>
+            <a href="#">BEST SELLERS</a>
+            <a href="#">NEW</a>
+            <a href="#">COLLECTIONS</a>
+        </div> 
+    </nav> 
+
+    <main>
+        <div class="accountheader">
+            <h1>Welcome</h1>
+            <p>Customer Name, Email: name@example.com</p>
+        </div>
+
+        <div class="mainContainer">
+            <div class="sideNav">
+                    <a href="userdb.html" class="sideNavLink">
+                        <img src="images/SecurityIcon.png" class="navIcon" alt="Login & Security Icon">
+                        <p>Login & Security</p>
+                    </a>
+                    <a href="adress.html" class="sideNavLink">
+                        <img src="images/AdressIcon.png" class="navIcon" alt="Adresses Icon">
+                        <p>Adresses</p>
+                    </a>
+                    <a href="#" class="sideNavLink">
+                        <img src="images/Icon Delivery.png" class="navIcon" alt="Icon Delivery">
+                        <p>My Orders</p>
+                    </a>
+                    <a href="#" class="sideNavLink">
+                        <img src="images/ArchiveIcon.png" class="navIcon" alt="Archive Orders Icon">
+                        <p>Archive Orders</p>
+                    </a>
+                    <div class="divider"></div>
+                    <a href="#" class="sideNavLink">
+                        <img src="images/LogoutIcon(1).png" class="navIcon" alt="Logout Icon">
+                        <p>Logout</p>
+                    </a>
+            </div>
+            <div class="mainContent">
+                <h1>Your Personal Information</h1>
+                <div class="divider"></div>
+                <div class="form">
+                    <div class="labels">
+                    <label for="first_name">First Name:</label>
+                    <label for="last_name">Last Name:</label>
+                    <label for="email">Email:</label>
+                    <label for="contact_number">Contact Number:</label>           
+                    <label for="password">Password:</label>   
+                    <label for="new_password">New Password:</label>
+                </div>
+                <div class="input-fields">
+                    <input type="text" id="first_name" name="first_name">
+                    <input type="text" id="last_name" name="last_name">
+                    <input type="email" id="email" name="email">
+                    <input type="tel" id="contact_number" name="contact_number">
+                    <input type="password" id="password" name="password">
+                    <input type="password" id="new_password" name="new_password">
+                </div>
+                </div>
+                    <button class="button1">SAVE</button>
+                    <button class="button2">Delete Account</button>
+            </div>
+    </main>
+
+</body>
+</html>
